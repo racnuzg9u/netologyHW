@@ -1,7 +1,10 @@
 # Домашнее задание к занятию "`Zabbix_vol1`" - `Османов Ренат`
-![img](/img/zabbix/zabbix1.1.png)
+
 
 ### Задание 1
+
+![img](../img/zabbix_vol1/zabbix1.1.png)
+
 
 ````
 apt update && apt upgrade -y
@@ -21,25 +24,22 @@ systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
 ````
 
 ### Задание 2
+![img](../img/zabbix_vol1/zabbix2.1.png)
+![img](../img/zabbix_vol1/zabbix2.2.png)
+![img](../img/zabbix_vol1/zabbix2.3.png)
+
 
 
 ````
-stages:
-  - test
-  - build
-
-test:
-  stage: test
-  image: golang:1.17
-  script:
-   - go test .
-
-build:
-    stage: test
-    image: docker:latest
-    script:
-        docker build .
+wget --no-check-certificate https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
+sed 's/https/http/g' /etc/apt/sources.list.d/zabbix.list -i
+sed 's/https/http/g' /etc/apt/sources.list.d/zabbix-agent2-plugins.list -i
+apt install zabbix-agent net-tools
+sed 's/Server=127.0.0.1/Server=192.168.56.10/g' /etc/zabbix/zabbix_agentd.conf -i
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
+ifconfig
 ````
 
-![img](/img/gitlab2.3.pnf)
 
