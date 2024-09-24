@@ -3,7 +3,7 @@
 
 ### Задание 1
 
-![img](../img/zabbix_vol1/zabbix1.1.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol1/zabbzabbix1.1.png)
 
 
 ````
@@ -24,9 +24,9 @@ systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
 ````
 
 ### Задание 2
-![img](../img/zabbix_vol1/zabbix2.1.png)
-![img](../img/zabbix_vol1/zabbix2.2.png)
-![img](../img/zabbix_vol1/zabbix2.3.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol1/zabbzabbix2.1.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol1/zabbzabbix2.2.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol1/zabbzabbix2.3.png)
 
 
 
