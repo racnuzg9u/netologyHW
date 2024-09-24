@@ -3,7 +3,7 @@
 
 ### Задание 1
 
-![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol2/zabbix1.1.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/zabbix_vol2/zabbix1.png)
 
 
 
