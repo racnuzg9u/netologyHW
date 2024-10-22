@@ -15,9 +15,9 @@ terraform {
   required_version = ">= 1.3.0"
 }
 provider "yandex" {
-  token                    = "t1.9euelZqPlpfJx4uOmsuLnp7Jic2cnO3rnpWajYnKlZObjYrMx42UjpnGl83l8_djEiFH-e9kcVZs_t3z9yNBHkf572RxVmz-zef1656VmsiYnJ2Pic_Jk5mZyprLl5KS7_zF656VmsiYnJ2Pic_Jk5mZyprLl5KS.shDTLiPLQ3iFhyLn9cqyncAb1BMT-NqNuWrBamSG0BPRsleW_nKCPLds9RbQ426HWLoEDpjgWZVEwBEfpI3cAg"  
-  cloud_id                 = "b1ga6dn8poq3c8hbrasv"                     
-  folder_id                = "b1goauigo1ks1qvqmtfv"                             
+  token                    = ""
+  cloud_id                 = "b********************v"                     
+  folder_id                = "b1goa*****************"                             
   zone                     = "ru-central1-a"                             
 }
 
@@ -100,14 +100,14 @@ resource "yandex_lb_target_group" "target" {
 
 
 
-crontab task
+balancer
 
-![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/backupHW/backup2.1.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/cloudFF/cloud1.1.png)
 
 
-Logs
+NGINX
 
-![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/backupHW/backup2.2.png)
+![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/cloudFF/cloud1.2.png)
 
 
 
