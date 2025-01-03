@@ -18,9 +18,12 @@
 ---
 Решение:
 Запушен в Docker 
-'''
+
+```
+
 docker run --name test-cache -p 11211:11211 -d memcached
-'''
+
+```
 ![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/ssdb_vol2/ssdb_2.png)
 
 ### Задание 3. Удаление по TTL в Memcached
@@ -49,14 +52,12 @@ docker run --name test-cache -p 11211:11211 -d memcached
 
 Решение 
 Запущен в Docker 
-
-'''
+```
 
 docker run --name test-redis -d redis
 # Так же зашел в redis-cli при помощи данной команды
 docker exec -it test-redis redis-cli
 
-'''
-
+```
 
 ![img](https://github.com/racnuzg9u/netologyHW/blob/main/img/ssdb_vol2/ssdb_4.png)
